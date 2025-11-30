@@ -13,6 +13,29 @@ By the end of this section, you will:
 
 ---
 
+## Day-by-Day Lessons
+
+Complete internal learning documentation - learn everything without leaving this repo!
+
+### Week 1: HTML Fundamentals
+- [Day 1: HTML Basics - Document Structure & Text](./lessons/day-01-html-basics.md)
+- [Day 2: Links, Images, and Lists](./lessons/day-02-links-images-lists.md)
+- [Day 3-4: Semantic HTML & Forms](./lessons/day-03-04-semantic-html-forms.md)
+- [Day 5: Web Accessibility (a11y)](./lessons/day-05-accessibility.md)
+
+### Week 2: CSS Fundamentals
+- [Day 1: CSS Basics - Selectors, Box Model, Colors](./lessons/week-02-day-01-css-basics.md)
+- [Day 2: Selectors & Specificity](./lessons/week-02-day-02-selectors-specificity.md)
+- [Day 3-4: Flexbox](./lessons/week-02-day-03-04-flexbox.md)
+- [Day 5: CSS Grid](./lessons/week-02-day-05-grid.md)
+
+### Week 3: Responsive Design & Best Practices
+- Coming soon: Responsive Design & Media Queries
+- Coming soon: CSS Architecture & BEM
+- Coming soon: Modern CSS Features
+
+---
+
 ## Week 1: HTML Fundamentals
 
 ### Day 1-2: HTML Basics
