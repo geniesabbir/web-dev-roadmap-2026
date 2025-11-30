@@ -2,9 +2,10 @@
 
 A comprehensive, project-based learning path to becoming a professional full-stack developer.
 
-[![Star this repo](https://img.shields.io/github/stars/your-username/web-dev-roadmap-2026?style=social)](https://github.com/your-username/web-dev-roadmap-2026)
-[![Fork this repo](https://img.shields.io/github/forks/your-username/web-dev-roadmap-2026?style=social)](https://github.com/your-username/web-dev-roadmap-2026/fork)
+[![Star this repo](https://img.shields.io/github/stars/geniesabbir/web-dev-roadmap-2026?style=social)](https://github.com/geniesabbir/web-dev-roadmap-2026)
+[![Fork this repo](https://img.shields.io/github/forks/geniesabbir/web-dev-roadmap-2026?style=social)](https://github.com/geniesabbir/web-dev-roadmap-2026/fork)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 ---
 
