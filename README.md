@@ -2,6 +2,8 @@
 
 A comprehensive, project-based learning path to becoming a professional full-stack developer.
 
+> **New to the AI era?** Read the [AI Era Guide](./AI-ERA-GUIDE.md) to learn how to leverage AI tools while building skills that can't be automated.
+
 ## Overview
 
 This roadmap is divided into 5 phases, designed to take you from beginner to job-ready full-stack developer. Each phase builds on the previous one.
@@ -120,3 +122,35 @@ cat README.md
 ---
 
 **Start here:** [Phase 1: Foundations](./phase-1-foundations/README.md)
+
+---
+
+## Why This Roadmap Works in 2026
+
+### Modern Tech Stack
+- **Frontend:** React 18+, Next.js 14+ (App Router), TypeScript, Tailwind CSS
+- **Backend:** Node.js, Express/Fastify, PostgreSQL, Prisma, Redis
+- **DevOps:** Docker, GitHub Actions, Vercel, Railway, AWS basics
+- **AI Integration:** OpenAI/Anthropic APIs, RAG systems, prompt engineering
+
+### AI-Era Ready
+This roadmap focuses on skills AI can't replace:
+- **System design** - Understanding the "why" behind architecture
+- **Problem-solving** - Translating business needs to code
+- **Full-stack thinking** - Seeing how all pieces connect
+- **Human skills** - Communication, collaboration, judgment
+
+### Learn WITH AI, Not FROM AI
+- Use AI tools to accelerate learning (Claude, Copilot, Cursor)
+- Build muscle memory by coding without AI daily
+- Focus on understanding, not just copying
+
+See the full [AI Era Guide](./AI-ERA-GUIDE.md) for strategies.
+
+---
+
+## Additional Resources
+
+- [Projects Guide](./projects/README.md) - 5 portfolio projects from beginner to advanced
+- [Learning Resources](./RESOURCES.md) - Curated courses, tools, and communities
+- [AI Era Guide](./AI-ERA-GUIDE.md) - Thriving as a developer in the AI age
