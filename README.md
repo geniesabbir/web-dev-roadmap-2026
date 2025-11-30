@@ -2,6 +2,16 @@
 
 A comprehensive, project-based learning path to becoming a professional full-stack developer.
 
+[![Star this repo](https://img.shields.io/github/stars/your-username/web-dev-roadmap-2026?style=social)](https://github.com/your-username/web-dev-roadmap-2026)
+[![Fork this repo](https://img.shields.io/github/forks/your-username/web-dev-roadmap-2026?style=social)](https://github.com/your-username/web-dev-roadmap-2026/fork)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+
+---
+
+### 🍴 Fork it. Learn. Grow. ⭐ Star if helpful. PRs welcome!
+
+---
+
 > **New to the AI era?** Read the [AI Era Guide](./AI-ERA-GUIDE.md) to learn how to leverage AI tools while building skills that can't be automated.
 
 ## Overview
@@ -154,3 +164,51 @@ See the full [AI Era Guide](./AI-ERA-GUIDE.md) for strategies.
 - [Projects Guide](./projects/README.md) - 5 portfolio projects from beginner to advanced
 - [Learning Resources](./RESOURCES.md) - Curated courses, tools, and communities
 - [AI Era Guide](./AI-ERA-GUIDE.md) - Thriving as a developer in the AI age
+
+---
+
+## 🤝 Contributing
+
+This roadmap is open source and we welcome contributions!
+
+**Ways to contribute:**
+- 🐛 Fix typos or errors
+- 📚 Add helpful resources
+- 💡 Improve explanations
+- 🌐 Add translations
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+---
+
+## 🍴 Use This Repo
+
+1. **Fork** this repository
+2. **Clone** your fork locally
+3. **Track progress** by checking off completed sections
+4. **Add your code** in the projects folder
+5. **Share** your journey!
+
+---
+
+## ⭐ Support
+
+If this roadmap helped you on your developer journey:
+
+- **Star** this repo ⭐
+- **Fork** it and track your progress
+- **Share** with others who are learning
+- **Contribute** improvements via PRs
+
+---
+
+## 📄 License
+
+MIT License - Feel free to use this for your own learning journey!
+
+---
+
+<p align="center">
+  <b>Happy coding! 🚀</b><br>
+  <i>From zero to full-stack developer</i>
+</p>
