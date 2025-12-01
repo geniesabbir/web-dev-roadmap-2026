@@ -287,26 +287,14 @@ Headings create a hierarchical structure for your content. Think of them like a 
 <h6>Smallest Heading (Level 6)</h6>
 ```
 
-**Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  Main Title (Level 1)                    ← Largest, bold    │
-│  ═══════════════════════════════════════                    │
-│                                                             │
-│  Section Heading (Level 2)               ← Large, bold      │
-│  ───────────────────────────────────────                    │
-│                                                             │
-│  Subsection Heading (Level 3)            ← Medium-large     │
-│                                                             │
-│  Sub-subsection (Level 4)                ← Medium           │
-│                                                             │
-│  Minor Heading (Level 5)                 ← Small            │
-│                                                             │
-│  Smallest Heading (Level 6)              ← Smallest         │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+**Preview (Browser Output):**
+
+> # Main Title (Level 1)
+> ## Section Heading (Level 2)
+> ### Subsection Heading (Level 3)
+> #### Sub-subsection (Level 4)
+> ##### Minor Heading (Level 5)
+> ###### Smallest Heading (Level 6)
 
 ### Heading Hierarchy Rules
 
@@ -369,19 +357,11 @@ before and after paragraphs.</p>
 with vertical spacing between them.</p>
 ```
 
-**Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  This is a paragraph. It contains a block of text that      │
-│  forms a distinct section of content. Browsers              │
-│  automatically add space before and after paragraphs.       │
-│                                                             │
-│  This is another paragraph. Each paragraph starts on a      │
-│  new line with vertical spacing between them.               │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+**Preview (Browser Output):**
+
+> This is a paragraph. It contains a block of text that forms a distinct section of content. Browsers automatically add space before and after paragraphs.
+>
+> This is another paragraph. Each paragraph starts on a new line with vertical spacing between them.
 
 ### Line Breaks and Horizontal Rules
 
@@ -399,15 +379,12 @@ Use for line breaks **within** content (addresses, poems):
 </p>
 ```
 
-**Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│  John Doe                                                   │
-│  123 Main Street                                            │
-│  New York, NY 10001                                         │
-│  United States                                              │
-└─────────────────────────────────────────────────────────────┘
-```
+**Preview (Browser Output):**
+
+> John Doe<br>
+> 123 Main Street<br>
+> New York, NY 10001<br>
+> United States
 
 #### Horizontal Rule `<hr>`
 
@@ -424,20 +401,17 @@ Creates a thematic break (horizontal line):
 <p>The next morning brought sunshine...</p>
 ```
 
-**Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Chapter 1: The Beginning                                   │
-│                                                             │
-│  It was a dark and stormy night...                          │
-│                                                             │
-│  ─────────────────────────────────────────────────────────  │
-│                                                             │
-│  Chapter 2: The Journey                                     │
-│                                                             │
-│  The next morning brought sunshine...                       │
-└─────────────────────────────────────────────────────────────┘
-```
+**Preview (Browser Output):**
+
+> ## Chapter 1: The Beginning
+>
+> It was a dark and stormy night...
+>
+> ---
+>
+> ## Chapter 2: The Journey
+>
+> The next morning brought sunshine...
 
 ---
 
@@ -454,14 +428,13 @@ Inline elements style text **within** block elements like `<p>`.
 <p>This is <strong><em>extremely critical</em></strong>!</p>
 ```
 
-**Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│  This is **very important** information.                    │
-│  You _must_ read this carefully.                            │
-│  This is **_extremely critical_**!                          │
-└─────────────────────────────────────────────────────────────┘
-```
+**Preview (Browser Output):**
+
+> This is **very important** information.
+>
+> You *must* read this carefully.
+>
+> This is ***extremely critical***!
 
 ### Semantic vs Presentational Elements
 
@@ -479,129 +452,141 @@ Inline elements style text **within** block elements like `<p>`.
 
 **Code with Preview:**
 
+#### `<strong>` - Important Text
 ```html
-<!-- Strong - Important text -->
 <p>Warning: <strong>Do not delete this file!</strong></p>
 ```
-**Preview:** Warning: **Do not delete this file!**
+**Preview:**
+> Warning: **Do not delete this file!**
 
 ---
 
+#### `<em>` - Emphasized Text
 ```html
-<!-- Emphasis - Stressed text -->
 <p>I <em>really</em> want to learn HTML.</p>
 ```
-**Preview:** I *really* want to learn HTML.
+**Preview:**
+> I *really* want to learn HTML.
 
 ---
 
+#### `<mark>` - Highlighted Text
 ```html
-<!-- Mark - Highlighted/relevant text -->
 <p>Search results for "HTML": <mark>HTML</mark> is a markup language.</p>
 ```
-**Preview:** Search results for "HTML": ==HTML== is a markup language.
+**Preview:**
+> Search results for "HTML": <mark>HTML</mark> is a markup language.
 
 ---
 
+#### `<del>` - Deleted Text
 ```html
-<!-- Delete - Removed text -->
 <p>Price: <del>$100</del> $75</p>
 ```
-**Preview:** Price: ~~$100~~ $75
+**Preview:**
+> Price: ~~$100~~ $75
 
 ---
 
+#### `<ins>` - Inserted Text
 ```html
-<!-- Insert - Added text -->
 <p>Status: <del>Pending</del> <ins>Approved</ins></p>
 ```
-**Preview:** Status: ~~Pending~~ <u>Approved</u>
+**Preview:**
+> Status: ~~Pending~~ <ins>Approved</ins>
 
 ---
 
+#### `<sub>` - Subscript (Below Baseline)
 ```html
-<!-- Subscript - Below baseline -->
 <p>Water formula: H<sub>2</sub>O</p>
 <p>Carbon dioxide: CO<sub>2</sub></p>
 ```
 **Preview:**
-```
-Water formula: H₂O
-Carbon dioxide: CO₂
-```
+> Water formula: H<sub>2</sub>O
+>
+> Carbon dioxide: CO<sub>2</sub>
 
 ---
 
+#### `<sup>` - Superscript (Above Baseline)
 ```html
-<!-- Superscript - Above baseline -->
 <p>Einstein's equation: E = mc<sup>2</sup></p>
 <p>Area: 100 m<sup>2</sup></p>
 <p>Footnote reference<sup>[1]</sup></p>
 ```
 **Preview:**
-```
-Einstein's equation: E = mc²
-Area: 100 m²
-Footnote reference¹
-```
+> Einstein's equation: E = mc<sup>2</sup>
+>
+> Area: 100 m<sup>2</sup>
+>
+> Footnote reference<sup>[1]</sup>
 
 ---
 
+#### `<small>` - Small/Fine Print
 ```html
-<!-- Small - Fine print -->
 <p><small>Copyright © 2024. All rights reserved.</small></p>
 <p><small>Terms and conditions apply.</small></p>
 ```
-**Preview:** <sub>Copyright © 2024. All rights reserved.</sub>
+**Preview:**
+> <small>Copyright © 2024. All rights reserved.</small>
+>
+> <small>Terms and conditions apply.</small>
 
 ---
 
+#### `<code>` - Inline Code
 ```html
-<!-- Code - Inline code -->
 <p>Use the <code>console.log()</code> function to debug.</p>
 <p>The <code>&lt;div&gt;</code> element is a container.</p>
 ```
-**Preview:** Use the `console.log()` function to debug.
+**Preview:**
+> Use the `console.log()` function to debug.
+>
+> The `<div>` element is a container.
 
 ---
 
+#### `<kbd>` - Keyboard Input
 ```html
-<!-- Keyboard - Keyboard input -->
 <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
 <p>Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> to open DevTools.</p>
 ```
 **Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Press [Ctrl] + [C] to copy.                                │
-│  Press [Ctrl] + [Shift] + [I] to open DevTools.             │
-└─────────────────────────────────────────────────────────────┘
-```
+> Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.
+>
+> Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> to open DevTools.
 
 ---
 
+#### `<abbr>` - Abbreviation (With Tooltip)
 ```html
-<!-- Abbreviation - With tooltip -->
 <p>The <abbr title="World Wide Web">WWW</abbr> was invented in 1989.</p>
 <p>Use <abbr title="HyperText Markup Language">HTML</abbr> for structure.</p>
 ```
-**Preview:** The WWW (hover shows: "World Wide Web") was invented in 1989.
+**Preview:**
+> The <abbr title="World Wide Web">WWW</abbr> was invented in 1989. *(hover to see full text)*
+>
+> Use <abbr title="HyperText Markup Language">HTML</abbr> for structure.
 
 ---
 
+#### `<q>` - Inline Quotation
 ```html
-<!-- Quote - Inline quotation -->
 <p>She said, <q>The future belongs to those who learn.</q></p>
 ```
-**Preview:** She said, "The future belongs to those who learn."
+**Preview:**
+> She said, "The future belongs to those who learn."
 
 ---
 
+#### `<span>` - Generic Inline Container
 ```html
-<!-- Span - Generic inline container (for styling) -->
 <p>My favorite color is <span style="color: blue;">blue</span>.</p>
 ```
-**Preview:** My favorite color is <span style="color: blue;">blue</span>.
+**Preview:**
+> My favorite color is <span style="color: blue;">blue</span>.
 
 ### Complete Inline Elements Example
 
@@ -650,49 +635,38 @@ Footnote reference¹
 ```
 
 **Browser Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│  HTML Inline Elements Showcase                              │
-│  ═══════════════════════════════════════                    │
-│                                                             │
-│  Text Importance                                            │
-│  ───────────────────────────────────────                    │
-│  This text contains **strongly important** and              │
-│  _emphasized_ words.                                        │
-│                                                             │
-│  Scientific Notation                                        │
-│  ───────────────────────────────────────                    │
-│  Water (H₂O) boils at 100°C or 212°F.                       │
-│  The speed of light is approximately 3 × 10⁸ m/s.           │
-│                                                             │
-│  Pricing Update                                             │
-│  ───────────────────────────────────────                    │
-│  Original price: ~~$199.99~~                                │
-│  Sale price: _$149.99_                                      │
-│  You save: [HIGHLIGHTED] $50.00                             │
-│                                                             │
-│  Code References                                            │
-│  ───────────────────────────────────────                    │
-│  In JavaScript, use `document.getElementById()` to          │
-│  select elements.                                           │
-│  To save your file, press [Ctrl] + [S].                     │
-│                                                             │
-│  Abbreviations                                              │
-│  ───────────────────────────────────────                    │
-│  The API (hover: Application Programming Interface)         │
-│  documentation is available online.                         │
-│                                                             │
-│  Quotation                                                  │
-│  ───────────────────────────────────────                    │
-│  As Tim Berners-Lee said, "The Web does not just connect    │
-│  machines, it connects people."                             │
-│                                                             │
-│  ─────────────────────────────────────────────────────────  │
-│                                                             │
-│  © 2024 HTML Tutorial. All rights reserved.                 │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+
+> # HTML Inline Elements Showcase
+>
+> ## Text Importance
+> This text contains **strongly important** and *emphasized* words.
+>
+> ## Scientific Notation
+> Water (H<sub>2</sub>O) boils at 100°C or 212°F.
+>
+> The speed of light is approximately 3 × 10<sup>8</sup> m/s.
+>
+> ## Pricing Update
+> Original price: ~~$199.99~~
+>
+> Sale price: <ins>$149.99</ins>
+>
+> You save: <mark>$50.00</mark>
+>
+> ## Code References
+> In JavaScript, use `document.getElementById()` to select elements.
+>
+> To save your file, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+>
+> ## Abbreviations
+> The <abbr title="Application Programming Interface">API</abbr> documentation is available online.
+>
+> ## Quotation
+> As Tim Berners-Lee said, "The Web does not just connect machines, it connects people."
+>
+> ---
+>
+> <small>© 2024 HTML Tutorial. All rights reserved.</small>
 
 ---
 
@@ -741,16 +715,13 @@ BLOCK ELEMENTS                      INLINE ELEMENTS
 <p>A paragraph is also a block element</p>
 ```
 
-**Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│ First div - takes full width                                │
-├─────────────────────────────────────────────────────────────┤
-│ Second div - starts on new line                             │
-├─────────────────────────────────────────────────────────────┤
-│ A paragraph is also a block element                         │
-└─────────────────────────────────────────────────────────────┘
-```
+**Preview (Browser Output):**
+
+| Block elements stack vertically (full width) |
+|----------------------------------------------|
+| First div - takes full width |
+| Second div - starts on new line |
+| A paragraph is also a block element |
 
 ### Inline Elements
 
@@ -779,12 +750,11 @@ BLOCK ELEMENTS                      INLINE ELEMENTS
 <em>Emphasized text</em>
 ```
 
-**Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│ First spanSecond spanThird span**Strong text**_Emphasized_  │
-└─────────────────────────────────────────────────────────────┘
-```
+**Preview (Browser Output):**
+
+> First span Second span Third span **Strong text** *Emphasized text*
+
+*(All inline elements stay on the same line)*
 
 ### The `<div>` and `<span>` Elements
 
@@ -960,14 +930,14 @@ Price: $100 (won't break between Price: and $100)
 
 **Visual:**
 ```
-WRONG:   <strong> ─────────┐
+WRONG:   <strong> ─────┐
               <em> ────│────┐
          </strong> ────┘    │   ← Tags cross!
               </em> ────────┘
 
 CORRECT: <strong> ─────────┐
-              <em> ────┐   │
-              </em> ────┘   │   ← Tags nest properly
+              <em> ─────┐  │
+              </em> ────┘  │   ← Tags nest properly
          </strong> ────────┘
 ```
 
@@ -1071,36 +1041,32 @@ CORRECT: <strong> ─────────┐
 </html>
 ```
 
-**Preview:**
-```
-┌─────────────────────────────────────────────────────────────┐
-│  John Doe                                                   │
-│  _Full-Stack Web Developer_                                 │
-│  ─────────────────────────────────────────────────────────  │
-│                                                             │
-│  About Me                                                   │
-│                                                             │
-│  Hello! I'm **John Doe**, a passionate web developer with   │
-│  [HIGHLIGHTED: 5 years of experience] building modern       │
-│  web applications.                                          │
-│                                                             │
-│  I specialize in HTML, CSS, and JS.                         │
-│                                                             │
-│  Contact                                                    │
-│                                                             │
-│  123 Developer Lane                                         │
-│  San Francisco, CA 94102                                    │
-│  United States                                              │
-│                                                             │
-│  Favorite Quote                                             │
-│                                                             │
-│  "The best way to predict the future is to create it."      │
-│  — _Abraham Lincoln_                                        │
-│                                                             │
-│  ─────────────────────────────────────────────────────────  │
-│  © 2024 John Doe. All rights reserved.                      │
-└─────────────────────────────────────────────────────────────┘
-```
+**Preview (Browser Output):**
+
+> # John Doe
+> *Full-Stack Web Developer*
+>
+> ---
+>
+> ## About Me
+>
+> Hello! I'm **John Doe**, a passionate web developer with <mark>5 years of experience</mark> building modern web applications.
+>
+> I specialize in <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, and <abbr title="JavaScript">JS</abbr>.
+>
+> ## Contact
+>
+> 123 Developer Lane<br>
+> San Francisco, CA 94102<br>
+> United States
+>
+> ## Favorite Quote
+>
+> "The best way to predict the future is to create it." — *Abraham Lincoln*
+>
+> ---
+>
+> <small>© 2024 John Doe. All rights reserved.</small>
 
 ### Example 2: Technical Documentation Page
 
